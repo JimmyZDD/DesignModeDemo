@@ -20,6 +20,17 @@
 		425B47D41EF1164700E94153 /* MVPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B47D31EF1164700E94153 /* MVPView.m */; };
 		425B47D71EF1165400E94153 /* MVPController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B47D61EF1165400E94153 /* MVPController.m */; };
 		425B47DA1EF1166C00E94153 /* Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B47D91EF1166C00E94153 /* Presenter.m */; };
+		425B48191EF293B600E94153 /* MVVMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B48181EF293B600E94153 /* MVVMController.m */; };
+		425B481C1EF293C800E94153 /* MVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B481B1EF293C800E94153 /* MVVMView.m */; };
+		425B481F1EF293D800E94153 /* MVVMPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B481E1EF293D800E94153 /* MVVMPaper.m */; };
+		425B48221EF293E200E94153 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B48211EF293E200E94153 /* ViewModel.m */; };
+		425B482D1EF2989300E94153 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B48291EF2989300E94153 /* FBKVOController.m */; };
+		425B482E1EF2989300E94153 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B482C1EF2989300E94153 /* NSObject+FBKVOController.m */; };
+		425B483A1EF2C0A500E94153 /* CDDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B48331EF2C0A500E94153 /* CDDController.m */; };
+		425B483B1EF2C0A500E94153 /* CDDMyPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B48351EF2C0A500E94153 /* CDDMyPresenter.m */; };
+		425B48411EF2C23D00E94153 /* CDDContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B48401EF2C23D00E94153 /* CDDContext.m */; };
+		425B48441EF2C25600E94153 /* NSObject+CDD.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B48431EF2C25600E94153 /* NSObject+CDD.m */; };
+		425B48471EF2C5FB00E94153 /* CDDMyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B48461EF2C5FB00E94153 /* CDDMyView.m */; };
 		4273A6FF1EF02483008EDAF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4273A6FE1EF02483008EDAF8 /* main.m */; };
 		4273A7021EF02483008EDAF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4273A7011EF02483008EDAF8 /* AppDelegate.m */; };
 		4273A7051EF02483008EDAF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4273A7041EF02483008EDAF8 /* ViewController.m */; };
@@ -56,6 +67,29 @@
 		425B47D61EF1165400E94153 /* MVPController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPController.m; sourceTree = "<group>"; };
 		425B47D81EF1166C00E94153 /* Presenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presenter.h; sourceTree = "<group>"; };
 		425B47D91EF1166C00E94153 /* Presenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presenter.m; sourceTree = "<group>"; };
+		425B48171EF293B600E94153 /* MVVMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMController.h; sourceTree = "<group>"; };
+		425B48181EF293B600E94153 /* MVVMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMController.m; sourceTree = "<group>"; };
+		425B481A1EF293C800E94153 /* MVVMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMView.h; sourceTree = "<group>"; };
+		425B481B1EF293C800E94153 /* MVVMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMView.m; sourceTree = "<group>"; };
+		425B481D1EF293D800E94153 /* MVVMPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMPaper.h; sourceTree = "<group>"; };
+		425B481E1EF293D800E94153 /* MVVMPaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMPaper.m; sourceTree = "<group>"; };
+		425B48201EF293E200E94153 /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		425B48211EF293E200E94153 /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		425B48281EF2989300E94153 /* FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKVOController.h; sourceTree = "<group>"; };
+		425B48291EF2989300E94153 /* FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKVOController.m; sourceTree = "<group>"; };
+		425B482A1EF2989300E94153 /* KVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOController.h; sourceTree = "<group>"; };
+		425B482B1EF2989300E94153 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FBKVOController.h"; sourceTree = "<group>"; };
+		425B482C1EF2989300E94153 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBKVOController.m"; sourceTree = "<group>"; };
+		425B48321EF2C0A500E94153 /* CDDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDController.h; sourceTree = "<group>"; };
+		425B48331EF2C0A500E94153 /* CDDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDController.m; sourceTree = "<group>"; };
+		425B48341EF2C0A500E94153 /* CDDMyPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDMyPresenter.h; sourceTree = "<group>"; };
+		425B48351EF2C0A500E94153 /* CDDMyPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDMyPresenter.m; sourceTree = "<group>"; };
+		425B483F1EF2C23D00E94153 /* CDDContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDContext.h; sourceTree = "<group>"; };
+		425B48401EF2C23D00E94153 /* CDDContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDContext.m; sourceTree = "<group>"; };
+		425B48421EF2C25600E94153 /* NSObject+CDD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CDD.h"; sourceTree = "<group>"; };
+		425B48431EF2C25600E94153 /* NSObject+CDD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CDD.m"; sourceTree = "<group>"; };
+		425B48451EF2C5FB00E94153 /* CDDMyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDMyView.h; sourceTree = "<group>"; };
+		425B48461EF2C5FB00E94153 /* CDDMyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDMyView.m; sourceTree = "<group>"; };
 		4273A6FA1EF02483008EDAF8 /* DesignModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4273A6FE1EF02483008EDAF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4273A7001EF02483008EDAF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,6 +136,8 @@
 		425B47AB1EF0D48F00E94153 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				425B48311EF2C0A500E94153 /* CDD */,
+				425B48161EF2936800E94153 /* MVVM */,
 				425B47C51EF1133B00E94153 /* MVP */,
 				425B47BB1EF10E4F00E94153 /* MVC */,
 			);
@@ -147,16 +183,69 @@
 		425B47C51EF1133B00E94153 /* MVP */ = {
 			isa = PBXGroup;
 			children = (
+				425B47D51EF1165400E94153 /* MVPController.h */,
+				425B47D61EF1165400E94153 /* MVPController.m */,
 				425B47CF1EF1163300E94153 /* MVPModel.h */,
 				425B47D01EF1163300E94153 /* MVPModel.m */,
 				425B47D21EF1164700E94153 /* MVPView.h */,
 				425B47D31EF1164700E94153 /* MVPView.m */,
-				425B47D51EF1165400E94153 /* MVPController.h */,
-				425B47D61EF1165400E94153 /* MVPController.m */,
 				425B47D81EF1166C00E94153 /* Presenter.h */,
 				425B47D91EF1166C00E94153 /* Presenter.m */,
 			);
 			name = MVP;
+			sourceTree = "<group>";
+		};
+		425B48161EF2936800E94153 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				425B48271EF2989300E94153 /* FBKVOController */,
+				425B48171EF293B600E94153 /* MVVMController.h */,
+				425B48181EF293B600E94153 /* MVVMController.m */,
+				425B481A1EF293C800E94153 /* MVVMView.h */,
+				425B481B1EF293C800E94153 /* MVVMView.m */,
+				425B481D1EF293D800E94153 /* MVVMPaper.h */,
+				425B481E1EF293D800E94153 /* MVVMPaper.m */,
+				425B48201EF293E200E94153 /* ViewModel.h */,
+				425B48211EF293E200E94153 /* ViewModel.m */,
+			);
+			name = MVVM;
+			sourceTree = "<group>";
+		};
+		425B48271EF2989300E94153 /* FBKVOController */ = {
+			isa = PBXGroup;
+			children = (
+				425B48281EF2989300E94153 /* FBKVOController.h */,
+				425B48291EF2989300E94153 /* FBKVOController.m */,
+				425B482A1EF2989300E94153 /* KVOController.h */,
+				425B482B1EF2989300E94153 /* NSObject+FBKVOController.h */,
+				425B482C1EF2989300E94153 /* NSObject+FBKVOController.m */,
+			);
+			path = FBKVOController;
+			sourceTree = "<group>";
+		};
+		425B48311EF2C0A500E94153 /* CDD */ = {
+			isa = PBXGroup;
+			children = (
+				425B483E1EF2C22900E94153 /* CDD */,
+				425B48321EF2C0A500E94153 /* CDDController.h */,
+				425B48331EF2C0A500E94153 /* CDDController.m */,
+				425B48341EF2C0A500E94153 /* CDDMyPresenter.h */,
+				425B48351EF2C0A500E94153 /* CDDMyPresenter.m */,
+				425B48451EF2C5FB00E94153 /* CDDMyView.h */,
+				425B48461EF2C5FB00E94153 /* CDDMyView.m */,
+			);
+			path = CDD;
+			sourceTree = "<group>";
+		};
+		425B483E1EF2C22900E94153 /* CDD */ = {
+			isa = PBXGroup;
+			children = (
+				425B483F1EF2C23D00E94153 /* CDDContext.h */,
+				425B48401EF2C23D00E94153 /* CDDContext.m */,
+				425B48421EF2C25600E94153 /* NSObject+CDD.h */,
+				425B48431EF2C25600E94153 /* NSObject+CDD.m */,
+			);
+			path = CDD;
 			sourceTree = "<group>";
 		};
 		4273A6F11EF02483008EDAF8 = {
@@ -275,19 +364,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				4273A7051EF02483008EDAF8 /* ViewController.m in Sources */,
+				425B48411EF2C23D00E94153 /* CDDContext.m in Sources */,
 				425B47B01EF0D4EC00E94153 /* Manager.m in Sources */,
+				425B48441EF2C25600E94153 /* NSObject+CDD.m in Sources */,
+				425B48471EF2C5FB00E94153 /* CDDMyView.m in Sources */,
+				425B48221EF293E200E94153 /* ViewModel.m in Sources */,
 				4273A7021EF02483008EDAF8 /* AppDelegate.m in Sources */,
 				425B47A71EF0D29100E94153 /* AOPHelper.m in Sources */,
 				425B47C11EF10E9900E94153 /* MVCView.m in Sources */,
 				4273A6FF1EF02483008EDAF8 /* main.m in Sources */,
 				425B47C41EF10EB000E94153 /* Paper.m in Sources */,
+				425B482D1EF2989300E94153 /* FBKVOController.m in Sources */,
 				425B47A81EF0D29100E94153 /* Logger.m in Sources */,
 				425B47B31EF0D51900E94153 /* Employee.m in Sources */,
 				425B47B81EF0D9B100E94153 /* EmployeeNotification.m in Sources */,
+				425B482E1EF2989300E94153 /* NSObject+FBKVOController.m in Sources */,
+				425B48191EF293B600E94153 /* MVVMController.m in Sources */,
+				425B483A1EF2C0A500E94153 /* CDDController.m in Sources */,
 				425B47D41EF1164700E94153 /* MVPView.m in Sources */,
+				425B481C1EF293C800E94153 /* MVVMView.m in Sources */,
+				425B483B1EF2C0A500E94153 /* CDDMyPresenter.m in Sources */,
 				425B47D11EF1163300E94153 /* MVPModel.m in Sources */,
 				425B47BE1EF10E7D00E94153 /* MVCController.m in Sources */,
 				425B47D71EF1165400E94153 /* MVPController.m in Sources */,
+				425B481F1EF293D800E94153 /* MVVMPaper.m in Sources */,
 				425B47DA1EF1166C00E94153 /* Presenter.m in Sources */,
 				425B47B91EF0D9B100E94153 /* ManagerNotification.m in Sources */,
 			);
