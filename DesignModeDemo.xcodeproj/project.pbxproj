@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		422DEAD71EF4D51200E632BE /* BaseAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 422DEAD61EF4D51200E632BE /* BaseAnimationView.m */; };
+		422DEADA1EF4D6FB00E632BE /* FadeAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 422DEAD91EF4D6FB00E632BE /* FadeAnimationView.m */; };
+		422DEADD1EF567E700E632BE /* ScaleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 422DEADC1EF567E700E632BE /* ScaleAnimationView.m */; };
+		422DEAE01EF568B400E632BE /* AnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422DEADF1EF568B400E632BE /* AnimationController.m */; };
+		422DEAE31EF56C7F00E632BE /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 422DEAE21EF56C7F00E632BE /* AnimationView.m */; };
+		422DEAE51EF56F9200E632BE /* 设计模式类型 in Resources */ = {isa = PBXBuildFile; fileRef = 422DEAE41EF56F9200E632BE /* 设计模式类型 */; };
+		422DEAE81EF5709800E632BE /* 设计模式.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 422DEAE71EF5709800E632BE /* 设计模式.PNG */; };
+		422DEAEA1EF572AE00E632BE /* 设计模式基本原则.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 422DEAE91EF572AE00E632BE /* 设计模式基本原则.PNG */; };
 		425B47A71EF0D29100E94153 /* AOPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B47A41EF0D29100E94153 /* AOPHelper.m */; };
 		425B47A81EF0D29100E94153 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B47A61EF0D29100E94153 /* Logger.m */; };
 		425B47B01EF0D4EC00E94153 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B47AF1EF0D4EC00E94153 /* Manager.m */; };
@@ -40,6 +48,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		422DEAD51EF4D51200E632BE /* BaseAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseAnimationView.h; sourceTree = "<group>"; };
+		422DEAD61EF4D51200E632BE /* BaseAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseAnimationView.m; sourceTree = "<group>"; };
+		422DEAD81EF4D6FB00E632BE /* FadeAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FadeAnimationView.h; sourceTree = "<group>"; };
+		422DEAD91EF4D6FB00E632BE /* FadeAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FadeAnimationView.m; sourceTree = "<group>"; };
+		422DEADB1EF567E700E632BE /* ScaleAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaleAnimationView.h; sourceTree = "<group>"; };
+		422DEADC1EF567E700E632BE /* ScaleAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleAnimationView.m; sourceTree = "<group>"; };
+		422DEADE1EF568B400E632BE /* AnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationController.h; sourceTree = "<group>"; };
+		422DEADF1EF568B400E632BE /* AnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationController.m; sourceTree = "<group>"; };
+		422DEAE11EF56C7F00E632BE /* AnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		422DEAE21EF56C7F00E632BE /* AnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
+		422DEAE41EF56F9200E632BE /* 设计模式类型 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "设计模式类型"; sourceTree = "<group>"; };
+		422DEAE71EF5709800E632BE /* 设计模式.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "设计模式.PNG"; path = "../../../../../../设计模式.PNG"; sourceTree = "<group>"; };
+		422DEAE91EF572AE00E632BE /* 设计模式基本原则.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "设计模式基本原则.PNG"; path = "../../../../../../设计模式基本原则.PNG"; sourceTree = "<group>"; };
 		425B47A31EF0D29100E94153 /* AOPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOPHelper.h; sourceTree = "<group>"; };
 		425B47A41EF0D29100E94153 /* AOPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOPHelper.m; sourceTree = "<group>"; };
 		425B47A51EF0D29100E94153 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
@@ -113,6 +134,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		422DEAD41EF4D4E000E632BE /* DesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				422DEAD51EF4D51200E632BE /* BaseAnimationView.h */,
+				422DEAD61EF4D51200E632BE /* BaseAnimationView.m */,
+				422DEADB1EF567E700E632BE /* ScaleAnimationView.h */,
+				422DEADC1EF567E700E632BE /* ScaleAnimationView.m */,
+				422DEAD81EF4D6FB00E632BE /* FadeAnimationView.h */,
+				422DEAD91EF4D6FB00E632BE /* FadeAnimationView.m */,
+				422DEADE1EF568B400E632BE /* AnimationController.h */,
+				422DEADF1EF568B400E632BE /* AnimationController.m */,
+				422DEAE11EF56C7F00E632BE /* AnimationView.h */,
+				422DEAE21EF56C7F00E632BE /* AnimationView.m */,
+			);
+			path = DesignPatterns;
+			sourceTree = "<group>";
+		};
+		422DEAE61EF5701C00E632BE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				422DEAE91EF572AE00E632BE /* 设计模式基本原则.PNG */,
+				422DEAE71EF5709800E632BE /* 设计模式.PNG */,
+				422DEAE41EF56F9200E632BE /* 设计模式类型 */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		425B47A21EF0D28500E94153 /* AOP */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +175,8 @@
 		425B47AA1EF0D48F00E94153 /* DesignMode */ = {
 			isa = PBXGroup;
 			children = (
+				422DEAE61EF5701C00E632BE /* Sources */,
+				422DEAD41EF4D4E000E632BE /* DesignPatterns */,
 				425B47AD1EF0D4AE00E94153 /* Delegate */,
 				425B47AC1EF0D4A600E94153 /* Notification */,
 			);
@@ -351,8 +401,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4273A70D1EF02483008EDAF8 /* LaunchScreen.storyboard in Resources */,
+				422DEAE81EF5709800E632BE /* 设计模式.PNG in Resources */,
 				4273A70A1EF02483008EDAF8 /* Assets.xcassets in Resources */,
 				4273A7081EF02483008EDAF8 /* Main.storyboard in Resources */,
+				422DEAEA1EF572AE00E632BE /* 设计模式基本原则.PNG in Resources */,
+				422DEAE51EF56F9200E632BE /* 设计模式类型 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,24 +418,29 @@
 			files = (
 				4273A7051EF02483008EDAF8 /* ViewController.m in Sources */,
 				425B48411EF2C23D00E94153 /* CDDContext.m in Sources */,
+				422DEADA1EF4D6FB00E632BE /* FadeAnimationView.m in Sources */,
 				425B47B01EF0D4EC00E94153 /* Manager.m in Sources */,
 				425B48441EF2C25600E94153 /* NSObject+CDD.m in Sources */,
+				422DEAE31EF56C7F00E632BE /* AnimationView.m in Sources */,
 				425B48471EF2C5FB00E94153 /* CDDMyView.m in Sources */,
 				425B48221EF293E200E94153 /* ViewModel.m in Sources */,
 				4273A7021EF02483008EDAF8 /* AppDelegate.m in Sources */,
 				425B47A71EF0D29100E94153 /* AOPHelper.m in Sources */,
 				425B47C11EF10E9900E94153 /* MVCView.m in Sources */,
 				4273A6FF1EF02483008EDAF8 /* main.m in Sources */,
+				422DEAE01EF568B400E632BE /* AnimationController.m in Sources */,
 				425B47C41EF10EB000E94153 /* Paper.m in Sources */,
 				425B482D1EF2989300E94153 /* FBKVOController.m in Sources */,
 				425B47A81EF0D29100E94153 /* Logger.m in Sources */,
 				425B47B31EF0D51900E94153 /* Employee.m in Sources */,
 				425B47B81EF0D9B100E94153 /* EmployeeNotification.m in Sources */,
 				425B482E1EF2989300E94153 /* NSObject+FBKVOController.m in Sources */,
+				422DEAD71EF4D51200E632BE /* BaseAnimationView.m in Sources */,
 				425B48191EF293B600E94153 /* MVVMController.m in Sources */,
 				425B483A1EF2C0A500E94153 /* CDDController.m in Sources */,
 				425B47D41EF1164700E94153 /* MVPView.m in Sources */,
 				425B481C1EF293C800E94153 /* MVVMView.m in Sources */,
+				422DEADD1EF567E700E632BE /* ScaleAnimationView.m in Sources */,
 				425B483B1EF2C0A500E94153 /* CDDMyPresenter.m in Sources */,
 				425B47D11EF1163300E94153 /* MVPModel.m in Sources */,
 				425B47BE1EF10E7D00E94153 /* MVCController.m in Sources */,

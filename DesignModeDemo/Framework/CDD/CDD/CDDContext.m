@@ -6,17 +6,6 @@
 //  Copyright © 2017年 bihu. All rights reserved.
 //
 
-//
-//  CDDContext.m
-//  CDDDemo
-//
-//  Created by zhouwenfei  on 16/2/3.
-//  Copyright © 2016年 zhouwenfei. All rights reserved.
-//
-
-
-
-
 #import "CDDContext.h"
 #import <objc/runtime.h>
 
